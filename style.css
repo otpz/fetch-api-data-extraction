@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+}
+.container{
+    width: 31.25rem;
+    max-width: 25rem;
+    margin: auto;
+    margin: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+}
+.header{
+    width: 100%;
+    background-color: antiquewhite;
+    padding: .625rem 1.25rem;
+    border-radius: .625rem 0.625rem 0 0;  
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 3px 3px rgba(73, 73, 1, 0.4);
+}
+.number-id{
+    cursor: pointer;
+    color: black;
+    font-size:20px;
+}
+.username{
+    cursor: pointer;
+    font-size:20px;
+}
+.padding-bottom{
+    padding-bottom: 1.875rem;
+}
+.content{
+    width: 100%;
+    background-color: rgb(213, 187, 152);
+    padding: .625rem 1.25rem;
+    border-radius: 0 0 0.625rem .625rem ;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+    box-shadow: 0px 3px 3px rgba(73, 73, 1, 0.4);
+}
+.name{
+    width: 100%;
+    font-size: 3.125rem;
+    letter-spacing: .1563rem;
+    color:rgb(50, 41, 30);
+    text-align: center;
+}
+.address{
+    width: 100%;
+    font-size: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:start;
+    letter-spacing: .0313rem;
+    color:rgb(112, 102, 80);
+}
+.e-mail{
+    padding-bottom: 12px;
+    cursor: pointer;
+}
+.home{
+    padding-bottom: .375rem;
+}
+.phone{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(112, 102, 80);
+    text-align: center;
+}
+.website{
+    width: 100%;
+    font-size: 1.125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    
+    color:rgb(50, 41, 30);
+}
+.website a{
+    color: inherit;
+    text-decoration: none;
+}
+.website:hover{
+    font-size: 1.375rem;
+    color:rgb(167, 98, 13);
+}
+
+/* BUTTONS */
+
+.btn-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.2s;
+    margin: auto;
+    margin: 7%; 
+} 
+.btn-left{
+    padding: .5rem 2.125rem;
+    border-radius: .625rem;
+    border: none;
+    border-color: none;
+    font-size: 16px;
+    color:rgb(50, 41, 30);
+    text-align: center;
+    background-color: antiquewhite ;
+    box-shadow: 0px 5px 5px rgba(61, 61, 33, 0.4);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+.btn-right{
+    padding: .5rem 2.125rem;
+    border-radius: .625rem;
+    border: none;
+    border-color: none;
+    font-size: 16px;
+    color:rgb(50, 41, 30);
+    text-align: center;
+    background-color: antiquewhite ;
+    box-shadow: 0px 5px 5px rgba(61, 61, 33, 0.4);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+.btn-left:hover{
+    transform: translateY(-0.3125rem);
+    font-size: 1.25rem;
+    letter-spacing: .0625rem;
+    color:rgb(187, 107, 10);
+}
+.btn-right:hover{
+    transform: translateY(-0.3125rem);
+    font-size: 1.25rem;
+    letter-spacing: .0625rem;
+    color:rgb(187, 107, 10);
+}
